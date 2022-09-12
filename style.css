@@ -1,0 +1,544 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'SF Pro Text',-apple-system,BlinkMacSystemFont,Roboto,'Segoe UI',Helvetica,Arial,sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol';
+}
+.nav{
+    background-color: black;
+}
+
+.box_nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.box_nav img{
+    width: 18px;
+    filter: invert();
+    cursor: pointer;
+}
+
+.listas{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    padding:  1rem;
+    gap: 50px;
+    color: #d2d2d2;
+    font-weight: 100;
+}
+
+.listas li{
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.listas li:hover{
+    color: white;
+ }
+
+ .quadro1{
+    height: 900px;
+    background-color: black;
+    background-image: url(/IMAGENS/hero__x15fcac9fw2q_large.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.itens_quadro1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.quadro1 p{
+    color: white;
+    text-align: center;
+    font-weight: 100;
+    font-size: 15px;
+    padding-top: 700px;
+}
+
+.quadro1 a{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    color: white;
+    font-weight: 100;
+    margin-top: 30px;
+    border: 1px solid white;
+    padding: 10px 20px;
+    border-radius: 30px;
+    font-size: 15px;
+    transition: 0.5s;
+}
+
+.quadro1 a:hover{
+    background-color: white;
+    color: black;
+}
+
+.quadro2{
+    height: 700px;
+    background-color: black;
+    background-image: url(/IMAGENS/iphone_14_pro__bdluirpa1ele_large.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 500px;
+    background-position-y: bottom;
+    padding-top: 70px;
+}
+
+.box_quadro2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.quadro2 img{
+    width: 300px;
+    margin: 0px auto;
+    display: block;
+}
+
+.quadro2 p{
+    color: white;
+    text-align: center;
+    font-weight: 100;
+    font-size: 15px;
+    margin-top: 20px;
+}
+
+.quadro2 a{
+    text-decoration: none;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    color: white;
+    font-weight: 100;
+    margin-top: 30px;
+    border: 1px solid white;
+    padding: 10px 20px;
+    border-radius: 30px;
+    font-size: 15px;
+    transition: 0.5s;
+}
+.quadro2 a:hover{
+    background-color: white;
+    color: black;
+}
+
+.btn_quadro2{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.quadro3{
+    background-color: #f5f5f6;
+    padding: 60px;
+    height: 569px;
+}
+
+.box_quadro3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagem-fundo-quadro3{
+    width: 700px;
+    margin-left: 100px;
+}
+
+.itens-lateral-quadro3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.itens-lateral-quadro3 p{
+    text-align: center;
+}
+
+.btn_quadro3{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.quadro3 a{
+    text-decoration: none;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    color: black;
+    font-weight: 300;
+    margin-top: 30px;
+    border: 1px solid black;
+    padding: 10px 20px;
+    border-radius: 30px;
+    font-size: 15px;
+    transition: 0.5s;
+}
+.quadro3 a:hover{
+    background-color: black;
+    color: white;
+}
+
+.quadro4{
+    height: 700px;
+    background-color: black;
+    background-image: url(/IMAGENS/airpods_pro__ybv307jchrmu_large.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 500px;
+    background-position-y: bottom;
+    padding-top: 70px;
+}
+
+.quadro4 p{
+    color: white;
+    text-align: center;
+    font-weight: 100;
+    font-size: 15px;
+    margin-top: 20px;
+}
+
+.quadro4 h2{
+    color: white;
+    font-size: 50px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.btn_quadro4{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.quadro4 a{
+    text-decoration: none;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    color: white;
+    font-weight: 100;
+    margin-top: 30px;
+    border: 1px solid white;
+    padding: 10px 20px;
+    border-radius: 30px;
+    font-size: 15px;
+    transition: 0.5s;
+}
+.quadro4 a:hover{
+    background-color: white;
+    color: black;
+}
+
+.quadro5{
+    background-color: #f5f5f6;
+    padding: 60px;
+    height: 570px;
+}
+
+.box_quadro5{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagem-fundo-quadro5{
+    width: 400px;
+    margin-left: 100px;
+}
+
+.itens-lateral-quadro5{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.itens-lateral-quadro5 p{
+    text-align: center;
+}
+
+.btn_quadro5{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.quadro5 a{
+    text-decoration: none;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    color: black;
+    font-weight: 300;
+    margin-top: 30px;
+    border: 1px solid black;
+    padding: 10px 20px;
+    border-radius: 30px;
+    font-size: 15px;
+    transition: 0.5s;
+}
+.quadro5 a:hover{
+    background-color: black;
+    color: white;
+}
+
+.quadro6{
+    background-color: black;
+    padding: 60px;
+    height: 635px;
+}
+
+.box_quadro6{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+}
+
+.imagem-fundo-quadro6{
+    width: 400px;
+    margin-left: 50px;
+    margin-top: -60px;
+}
+
+.itens-lateral-quadro6{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.itens-lateral-quadro6 p{
+    text-align: center;
+    color: white;
+}
+
+.btn_quadro6{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.quadro6 a{
+    text-decoration: none;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    color: white;
+    font-weight: 300;
+    margin-top: 30px;
+    border: 1px solid white;
+    padding: 10px 20px;
+    border-radius: 30px;
+    font-size: 15px;
+    transition: 0.5s;
+}
+.quadro6 a:hover{
+    background-color: white;
+    color: black;
+}
+
+.quadro7{
+    background-color: #f5f5f6;
+    padding: 60px;
+    height: 650px;
+}
+
+.box_quadro7{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.imagem-fundo-quadro7{
+    width: 400px;
+    margin-left: 100px;
+    display: block;
+    margin:  0 auto;
+}
+
+.itens-lateral-quadro7{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.itens-lateral-quadro7 p{
+    text-align: center;
+}
+
+.btn_quadro7{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.quadro7 a{
+    text-decoration: none;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    color: black;
+    font-weight: 300;
+    margin-top: 30px;
+    border: 1px solid black;
+    padding: 10px 20px;
+    border-radius: 30px;
+    font-size: 15px;
+    transition: 0.5s;
+}
+.quadro7 a:hover{
+    background-color: black;
+    color: white;
+}
+
+.quadro8{
+    background-color: #e6e6e6;
+    padding: 60px;
+    height: 700px;
+}
+
+.box_quadro8{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.imagem-fundo-quadro8{
+    width: 400px;
+    margin-left: 100px;
+    display: block;
+    margin:  0 auto;
+    margin-bottom: 20px;
+}
+
+.itens-lateral-quadro8{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.itens-lateral-quadro8 p{
+    text-align: center;
+}
+
+.btn_quadro8{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.quadro8 a{
+    text-decoration: none;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    color: black;
+    font-weight: 300;
+    margin-top: 30px;
+    border: 1px solid black;
+    padding: 10px 20px;
+    border-radius: 30px;
+    font-size: 15px;
+    transition: 0.5s;
+}
+.quadro8 a:hover{
+    background-color: black;
+    color: white;
+}
+
+.footer{
+    background-color: #1d1d20;
+}
+
+.footer_box{
+    display: flex;
+    flex-direction: column;
+    padding: 50px 200px;
+}
+
+.texto1{
+    color: #86868b;
+    font-weight: 100;
+    font-size: 14px;
+    border-bottom: 1px solid #86868b;
+    padding: 12px 0;
+}
+
+.texto1 a{
+    color: #2686df;
+    text-decoration: none;
+    font-weight: 400;
+}
+
+.texto1 a:hover{
+    border-bottom: 1px solid #2686df;
+}
+
+.texto2 h4{
+    color: #86868b;
+    font-weight: 100;
+    padding: 12px 0;
+    font-size: 14px;
+}
+
+.listas_footer{
+    color: #aaaaaa;
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+.listas_footer a{
+    color: #86868b;
+    text-decoration: none;
+}
+
+.btn1{
+    border-right: 1px solid #86868b;
+    padding-right: 20px;
+}
+
+.btn2{
+    border-right: 1px solid #86868b;
+    padding-right: 20px;
+    margin: 0;
+}
+
+.btn3{
+    border-right: 1px solid #86868b;
+    padding-right: 20px;
+}
